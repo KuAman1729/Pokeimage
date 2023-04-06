@@ -1,0 +1,38 @@
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  line-height: 5vh;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 8px;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #f5f5f5;
+}
+
+.nav-link.active {
+  background-color: #6fabdb;
+  color: #fff;
+}
+
+.type-count {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #999;
+}
